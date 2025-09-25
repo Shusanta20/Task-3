@@ -1,7 +1,5 @@
 # Vulnerability Assessment Report (Redacted)
 
-Generated: 2025-09-25 15:59 UTC
-
 ## Executive Summary
 This report presents findings from a Nessus Essentials basic network scan. Host identifiers have been redacted to preserve confidentiality. The scan identified several medium-severity issues (notably untrusted SSL certificate and SMB signing not required). No critical severity vulnerabilities were identified in the exported results. Credentialed re-scan is recommended to obtain a complete patch assessment.
 
@@ -138,4 +136,4 @@ Please note the following :
 - Repeat vulnerability scans regularly (monthly for personal systems; more often for production services) and after major updates.
 - Validate and test remediation in a controlled environment before wide deployment.
 
-**Note**: Host IPs were redacted to `[REDACTED_HOST]` as requested.
+**Note**: Host IPs were redacted to `[REDACTED_HOST]`.
